@@ -13,25 +13,7 @@
     <title>WebHozz</title>
   </head>
   <body>
-    <!-- row 1 -->
-    <div class="container" style="max-width: 100%;">
-   	    <div class="row" style="background-color: #1E90FF; height: 40px;">
-   			<div class="col-sm-6">
-   				<!-- <div id="kiri"> -->
-   				  <img src="./img/webhozz.png" width="4%" style="margin-top: 2px; margin-right: 10px; margin-left: 190px;">
-   					<a href="" style="font-size: 20px; color: white;">WEBHOZZ</a>
-   				 <!-- </div> -->
-   			</div>
-   			    <div class="col-sm-6" style="margin-left: 0px;">
-   				  <div class="kanan">
-   					 <li><a href="index.html">Home</a></li>
-   					 <li><a href="blog.html">Blog</a></li>
-   					 <li><a href="about.html">About Us</a></li>
-   					 <li><a href="contact.html">Contact</a></li>
-   				  </div>
-   			    </div>
-   	    </div>
-    </div>
+    <?php include("./headerfooter/header.php") ?>
     <!-- row 2 -->
     <div class="container" style="max-width: 75%; margin: 0px auto;">
         <div class="row">
@@ -98,52 +80,7 @@
    		 </div>
    	 </div>
     </div>
-    <!-- row 5 -->
-    <div class="container" style="max-width: 100%; background-color: #1E90FF; padding: 20px 0px; margin-top: 100px;">
-   	 <br>
-   	 <div class="row" style="width: 80%; margin: 20px auto; color: white;">
-   		 <div class="col-sm-3">
-   			 <h4>WebHozz Pos Pengumben</h4>
-   			 <p align="justify">
-   				 Jl. Raya Pos Pengumben No. I-9 <br>
-   				 ( dekat Lampu Merah Kelapa Dua ) <br>
-   				 Kebon Jeruk, Jakarta Barat
-   			 </p>
-   			 <h4>Telp (021) 53666207</h4>
-   			 WA : 0812 9597 7875
-   		 </div>
-   		 <div class="col-sm-3">
-   			 <h4>WebHozz Kalimalang</h4>
-   			 <p align="justify">
-   				 Gedung Autopit <br>
-   				 Jl. Raya Inspeksi Kalimalang <br>
-   				 Kav. Billy & Moon No.3A, Jakarta Timur
-   			 </p>
-   			 <h4>Telp (021) 865 7703</h4>
-   			 WA : 0812 8458 5378
-   		 </div>
-   		 <div class="col-sm-3">
-   			 <h4>WebHozz Bandung</h4>
-   			 <p align="justify">
-   				 Jl. Talaga Bodas No.40, Malabar <br>
-   				 Lengkong, Bandung <br>
-   				 Jawa Barat
-   			 </p>
-   			 <h4>Telp (022) 7351 2027</h4>
-   			 WA : 0821 1577 6165
-   		 </div>
-   		 <div class="col-sm-3">
-   			 <h4>WebHozz Surabaya</h4>
-   			 <p align="justify">
-   				 Gedung Pawitra Lt.2 <br>
-   				 Jl. Kalijudan No.98A, Mulyorejo <br>
-   				 Surabaya, Jawa Timur  
-   			 </p>
-   			 <h4>Telp (031) 9992 3922</h4>
-   			 WA : 0821 4263 1512
-   		 </div>
-   	 </div>
-    </div>
+    <?php include("./headerfooter/footer.php") ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
